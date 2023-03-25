@@ -60,6 +60,9 @@ g!(b)
 
 ## Classes/methods and methods
 
+You'll see that despite the lack of classes, NL feels quite similar to Python anyway.
+
+Python:
 ```python
 from __future__ import annotations
 from dataclasses import dataclass
@@ -71,6 +74,21 @@ class Point:
 
   def add(self, other: Point) -> Point:
     return Point(self.x + other.x, self.y + other.y)
+
+Point(2, 3).add(Point(5, 7))
+# => Point(7, 10)
+```
+
+NL:
+```python
+struct Point:
+  x: float = 0.0
+  y: float = 0.0
+end
+
+fn add(self: Point, other: Point) -> Point:
+  return Point(self.x + other.x, self.y + other.y)
+end
 
 Point(2, 3).add(Point(5, 7))
 # => Point(7, 10)
