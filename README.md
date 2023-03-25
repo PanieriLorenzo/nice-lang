@@ -32,6 +32,10 @@ Some other differences are:
 - Methods are just normal functions that operate on their first argument, with some syntax sugar to make them more method-like. The combination of structs and methods feels a lot like working with Python dataclasses.
 - True multi-threading support
 - No significant whitespace (except for newlines). Instead, blocks are terminated with the `end` keyword.
+- Enforced variable privacy
+- Variables are immutable by default, and mutability is enabled explicitly
+- Support for const variables, where they must be evaluated at definition-time, not at run-time, or they will raise an error
+- Rust-like error handling.
 
 Some of the features of Python that I love the most, are also here:
 - Native support for dictionaries
