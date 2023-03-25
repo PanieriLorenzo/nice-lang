@@ -46,3 +46,4 @@ Some of the features of Python that I love the most, are also here:
 - Powerful and elegant string interpolation
 - Powerful list slicing syntax
 - Native big-integer support, although in NL it is in a separate type.
+- Decorators, including some great built-in decorators for memoization
