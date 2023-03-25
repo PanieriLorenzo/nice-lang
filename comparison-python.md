@@ -57,3 +57,21 @@ g!(b)
 # => [1, 2, 3, 4]
 # makes sense
 ```
+
+## Classes/methods and methods
+
+```python
+from __future__ import annotations
+from dataclasses import dataclass
+
+@dataclass
+class Point:
+  x: float = 0.0
+  y: float = 0.0
+
+  def add(self, other: Point) -> Point:
+    return Point(self.x + other.x, self.y + other.y)
+
+Point(2, 3).add(Point(5, 7))
+# => Point(7, 10)
+```
