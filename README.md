@@ -42,3 +42,7 @@ Some of the features of Python that I love the most, are also here:
 - Simple iterator syntax
 - Easy to override built-in functions and operators
 - Doc strings
+- Native UTF-8 string support
+- Powerful and elegant string interpolation
+- Powerful list slicing syntax
+- Native big-integer support, although in NL it is in a separate type.
