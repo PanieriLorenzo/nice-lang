@@ -42,3 +42,5 @@ Some of the features of Python that I love the most, are also here:
 - List, set and dictionary comprehension
 - Superpowered slicing
 - Native UTF-8 strings
+
+See: [Comparison with Python](comparison-python.md)
