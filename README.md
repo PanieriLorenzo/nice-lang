@@ -35,19 +35,10 @@ Some other differences are:
 - Enforced variable privacy
 - Variables are immutable by default, and mutability is enabled explicitly
 - Support for const variables, where they must be evaluated at definition-time, not at run-time, or they will raise an error
-- Rust-like error handling.
+- Rust-like error handling
+- Pass-by-value by default, instead of the confusing pass-by-object semantics of Python.
 
 Some of the features of Python that I love the most, are also here:
-- Native support for dictionaries
-- Lazy pass-by-value semantics, although in NL we can also explicitly pass by reference if we want.
-- Extensive reflection support, which blends macro-like meta-programming with normal run-time programming.
-- List, dictionary and iterator comprehension
-- Sets
-- Simple iterator syntax
-- Easy to override built-in functions and operators
-- Doc strings
-- Native UTF-8 string support
-- Powerful and elegant string interpolation
-- Powerful list slicing syntax
-- Native big-integer support, although in NL it is in a separate type.
-- Decorators, including some great built-in decorators for memoization
+- List, set and dictionary comprehension
+- Superpowered slicing
+- Native UTF-8 strings
